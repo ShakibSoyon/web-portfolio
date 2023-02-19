@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    
 
 }
 .name-highlight{
@@ -11,4 +13,38 @@ body{
     margin-left: 5%;
     padding-left: 2%;
     text-align: justify;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+#linked-in{
+    text-decoration: none;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(50deg, lightsalmon,tomato);
+    padding: 10px 20px;
+}
+.bottom-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+#git{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon ,tomato);
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
 }
